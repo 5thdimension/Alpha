@@ -15,9 +15,9 @@ export default defineConfig({
           },
           shape: 'square',
           pagination: 'count',
-          title: 'Welcome to Telegram Onboarding Kit',
+          title: 'Coinpanion',
           description:
-            "Create stunning onboarding and paywall for your Telegram Bot using the full power of Mini Apps<br><br>It's <b>simple</b>, <b>fast</b>, highly <b>customizable</b> and <a href='https://github.com/Easterok/telegram-onboarding-kit' target='_blank'>open-source</a>!",
+            "Coinpanion<br><br>It's <b>simple</b>, <b>fast</b>, highly <b>REWARDING</b> and <a href='https://github.com/5thdimension/Coinpanion_bot-Alpha' target='_blank'>community driven</a>!",
           button: 'Next',
         },
 
