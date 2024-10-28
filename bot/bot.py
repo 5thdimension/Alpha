@@ -81,10 +81,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     reply_markup = ReplyKeyboardMarkup.from_column(
         [
             KeyboardButton(
-                text="🌈 Base Onboarding",
+                text="🌈 Alpha",
                 web_app=WebAppInfo(
                     url=add_get_params_to_url(
-                        "https://easterok.github.io/telegram-onboarding-kit", user_data
+                        "https://5thdimension.github.io/Alpha", user_data
                     )
                 ),
             ),
