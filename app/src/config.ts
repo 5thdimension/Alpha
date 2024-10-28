@@ -15,41 +15,13 @@ export default defineConfig({
           },
           shape: 'square',
           pagination: 'count',
-          title: 'Coinpanion',
+          title: 'Alpha',
           description:
-            "Coinpanion<br><br>It's <b>simple</b>, <b>fast</b>, highly <b>REWARDING</b> and <a href='https://github.com/5thdimension/Coinpanion_bot-Alpha' target='_blank'>community driven</a>!",
+            "Coinpanion<br><br>It's <b>Alpha</b>, <b>Stage1</b>, highly <b>REWARDING</b> and <a href='https://github.com/5thdimension/Alpha' target='_blank'>community driven</a>!",
           button: 'Next',
         },
 
-        // image
-        {
-          media: {
-            type: 'image',
-            src: import('./assets/img/durov.webp'),
-          },
-          shape: 'rounded',
-          pagination: 'count',
-          title: 'Onboarding supports many types of content',
-          description:
-            "Here you can see <b>Image</b>. But it's just the beginning...",
-          button: 'Next',
-        },
-
-        // sticker
-        {
-          media: {
-            type: 'sticker',
-            src: import('./assets/stickers/duck_love.tgs'),
-            size: 250,
-          },
-          shape: 'square',
-          pagination: 'count',
-          title: 'Telegram stickers',
-          description:
-            'Just download any <b>.tgs</b> sticker from Telegram and use it in your onboardings',
-          button: 'Next',
-        },
-
+        
         // form
         {
           extends: 'form', // note, it's important to extend from 'form' here
